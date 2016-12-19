@@ -6,7 +6,7 @@
     int computerPoints=0;
     
     for(int i=0; i<3; i++){
-    System.out.println("Vällkomen till Sten Sax Påse.\nI det här spelet så kommer du att spela en runda StenSaxPåse bäst av tre.");
+    System.out.println("Vällkomen till Sten Sax Påse.");
 
     //DINA VAL
     System.out.println("Skriv [0] för Sten\nSkriv [1] för Sax\nSkriv [2] för Påse");   

@@ -6,7 +6,6 @@ public class Grafik extends JPanel {
 
  Ball ball = new Ball(this); FORTSÄTT PÅ 5:00 I VIDEON
     
-
     public void paint(Graphics g) {
         super.paint(g);
        
