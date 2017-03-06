@@ -15,8 +15,8 @@ public class ProgrameringAventyr2 {
     static float hälsa = 100;
 
     static void gameStory() {
-        System.out.println("This is a quest to find life or death!");
-        System.out.println("You will probably die!");
+        System.out.println("Det här är ett uppdrag på liv och död!");
+        System.out.println("Du kommer antagligen dö!");
     }
 
     static void delay(int millis) {
@@ -39,13 +39,13 @@ public class ProgrameringAventyr2 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("What is thy given name, peasant? ");
+        System.out.print("Vad är ditt namn? ");
         förnamn = sc.nextLine();
-        System.out.print("and thy family name? ");
+        System.out.print("Familje namn? ");
         efternamn = sc.nextLine();
-        System.out.print("With what name shalt we call thee? ");
+        System.out.print("Vad ska jag kalla dig? ");
         spelarnamn = sc.nextLine();
-        System.out.println("Darest you tell us thy age, please. ");
+        System.out.println("Vad är din ålder? ");
         ålder = sc.nextInt();
         sc.nextLine();
         do {
@@ -58,25 +58,25 @@ public class ProgrameringAventyr2 {
             switch (riktning) {
                 case 'N':
                 case 'n': {
-                    System.out.println("We head north!");
+                    System.out.println("North!");
                     posY += 1;
                     break;
                 }
                 case 'S':
                 case 's': {
-                    System.out.println("We head south!");
+                    System.out.println("South!");
                     posY -= 1;
                     break;
                 }
                 case 'W':
                 case 'w': {
-                    System.out.println("We head west!");
+                    System.out.println("West!");
                     posX += 1;
                     break;
                 }
                 case 'E':
                 case 'e': {
-                    System.out.println("We head east!");
+                    System.out.println("East!");
                     posX -= 1;
                     break;
                 }
