@@ -32,6 +32,7 @@ public class ProgrameringAventyr2 {
 
     static int probability() {
         return (int) (Math.random() * 100);
+        //slump generator.
     }
 
     public static void main(String[] args) {
@@ -47,10 +48,11 @@ public class ProgrameringAventyr2 {
         spelarnamn = sc.nextLine();
         System.out.println("Vad är din ålder? ");
         ålder = sc.nextInt();
+        //lite frågor till dig.
         sc.nextLine();
-        do {
-
-            System.out.print("What to do? ");
+      do{
+        
+            System.out.print("Vad ska du göra? ");
             kommando = sc.nextLine();
           
             riktning = kommando.charAt(0);
@@ -79,6 +81,8 @@ public class ProgrameringAventyr2 {
                     System.out.println("East!");
                     posX -= 1;
                     break;
+                   //alla de olika riktningarna och ett kordinatsystem visar vart du är på kartan.
+                   
                 }
             }
 
@@ -102,6 +106,8 @@ public class ProgrameringAventyr2 {
             System.out.println("Du dog.");
             sc.close();
             }
+            
+            // Sanolikheter i % for att ett monster, grop eller potion kan dyka upp.
             delay(1000);
         
         
@@ -109,3 +115,5 @@ public class ProgrameringAventyr2 {
         sc.close();
     
 
+    
+  
